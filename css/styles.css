@@ -28,3 +28,6 @@ table#repeaters td,th {
 table#repeaters tr {
 	border-bottom: 1px dotted black;
 }
+.dataTables_wrapper .dataTables_filter {
+	float: left;
+}
