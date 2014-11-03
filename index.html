@@ -8,18 +8,21 @@
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/sortable.js"></script>
+		<script type="text/javascript" src="http://cdn.datatables.net/1.10.3/js/jquery.dataTables.min.js"></script>
 		<script type="text/javascript" src="js/scripts.js"></script>
 		<!--CSS-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://cdn.datatables.net/1.10.3/css/jquery.dataTables.min.css">
 		<link rel="stylesheet" href="css/styles.css" />
 	</head>
-	<body>
+	<div class="container-fluid center">
+			<div class="row">
+				<div class="col-md-12">
 		<h1>Repeat Offenders</h1>
 		<h3>In 2011 and 2013, the Board of Elections referred dozens of companies to district attorneys for prosecution, saying their excessive contributions had been "knowing and willful." Since 2012, nine companies named in those letters have exceeded the contribution limit again.</h3>
-		<div id="list">
+		
 
-			<table class="sortable">
+			<table id="repeaters">
 				<thead>
 					<tr>
 						<th>Company</th>

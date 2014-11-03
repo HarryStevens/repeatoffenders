@@ -1,29 +1,30 @@
-body {
-	padding: 10px;
-	width: 700px;
+.center {
 	margin: 0 auto;
 	display: table;
+	width:700px;
 }
-h3 {
+
+h3{
 	font-size: 14px;
 }
-table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after {
-	content: " \25B4\25BE"
+table#repeaters {
+	width:700px;
 }
-table.sortable td,th {
-	padding: 12px;
-	margin: 10px;
-}
-table.sortable th {
+/*
+table#referrals th {
 	background: #aaa;
-	cursor: pointer;
-}
-table.sortable tr {
-	border-bottom: 1px dotted black;
-}
-table.sortable tbody tr:nth-child(2n) td {
+
+*/
+
+table#repeaters tbody tr:nth-child(2n) td {
   background: #ddd;
 }
-table.sortable tbody tr:nth-child(2n+1) td {
+table#repeaters tbody tr:nth-child(2n+1) td {
   background: #fff;
+}
+table#repeaters td,th {
+	padding: 12px;
+}
+table#repeaters tr {
+	border-bottom: 1px dotted black;
 }
